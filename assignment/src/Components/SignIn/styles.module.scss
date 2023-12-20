@@ -1,0 +1,28 @@
+@import "../../scss/mixin.scss";
+
+.container1 {
+    background-color:  #f0e399;
+    background-image: url("../../Assets/img/Elements.svg");
+    display: flex;
+    min-height: 980px;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+    padding: 44px 0;
+    // height: 100vh;
+    @include breakpoint-down(sm){
+        height: inherit;
+        padding: 20px 10px;
+    }
+}
+.logo{
+    background-image: url("../../Assets/img/Logo.svg");
+    background-repeat: no-repeat;
+    height: 38px;
+    width: 112px;
+}
+.para{
+    margin-top: 20px;
+}

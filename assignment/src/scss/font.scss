@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Sk-Modernist';
+    src: url('../Assets/fonts/Sk-Modernist-Bold.woff2') format('woff2'),
+        url('../Assets/fonts/Sk-Modernist-Bold.woff') format('woff'),
+        url('../Assets/fonts/Sk-Modernist-Bold.ttf') format('truetype'),
+        url('../Assets/fonts/Sk-Modernist-Bold.svg#Sk-Modernist-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sk-Modernist';
+    src: url('../Assets/fonts/Sk-Modernist-Regular.woff2') format('woff2'),
+        url('../Assets/fonts/Sk-Modernist-Regular.woff') format('woff'),
+        url('../Assets/fonts/Sk-Modernist-Regular.ttf') format('truetype'),
+        url('../Assets/fonts/Sk-Modernist-Regular.svg#Sk-Modernist-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sk-Modernist Mono';
+    src: url('../Assets/fonts/Sk-Modernist-Mono.woff2') format('woff2'),
+        url('../Assets/fonts/Sk-Modernist-Mono.woff') format('woff'),
+        url('../Assets/fonts/Sk-Modernist-Mono.ttf') format('truetype'),
+        url('../Assets/fonts/Sk-Modernist-Mono.svg#Sk-Modernist-Mono') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

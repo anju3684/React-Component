@@ -1,0 +1,25 @@
+.todo{
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    background-color: rgba(245, 181, 68,0.1);
+    margin-top: 32px;
+    padding: 24px;
+    .tododisplay{
+        margin-top:24px;
+        gap:8px;
+        display: flex;
+        flex-direction: column;
+    }
+    .AddCard{
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 0;
+        p{
+            display: flex;
+            align-items: center;
+            color:#2772F0;
+            font-size: 14px;
+        }
+    }
+}

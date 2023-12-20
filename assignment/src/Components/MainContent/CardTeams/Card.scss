@@ -1,0 +1,67 @@
+@import "../../../scss/mixin.scss";
+.mainCard {
+    height: 204px;
+    min-width: 334px;
+    // border: 1px solid brown;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    @include breakpoint-down(sm){
+        width: 320x;
+    }
+
+    .top {
+        display: flex;
+        margin: 32px;
+        min-width: 270px;
+        padding: 10px 0;
+        // height: 48px;
+        // border:1px solid blue;
+        justify-content: space-between;
+
+        .topContent {
+            display: flex;
+            gap: 16px;
+
+            .content {
+                display: flex;
+                flex-direction: column;
+                padding: 4px 0;
+
+                .p1 {
+                    font-weight: 800;
+                    font-size: 14px;
+                    margin: 0;
+                }
+
+                .p2 {
+                    font-weight: 500;
+                    font-size: 12px;
+                    margin: 0;
+                    padding: 3px 0;
+                }
+            }
+
+        }
+
+    }
+
+    .user {
+        margin: 0 32px;
+        // width: 270px;
+        // height: 60px;
+        // border:1px solid blue;
+        background-color: rgba(245, 181, 68, 0.3);
+        border-radius: 5px;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            border-radius: 10px;
+        }
+    }
+}

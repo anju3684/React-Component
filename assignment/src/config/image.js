@@ -1,0 +1,21 @@
+export const image={
+    menu:require("../Assets/img/Menu.svg").default,
+    msg:require("../Assets/img/Message - 4.svg").default,
+    project:require("../Assets/img/Check.svg").default,
+    schdule:require("../Assets/img/Combined Shape.svg").default,
+    activity:require("../Assets/img/Clock.svg").default,
+    more:require("../Assets/img/Icon.svg").default,
+    avatar:require("../Assets/img/Avatar.svg").default,
+    avatar1:require("../Assets/img/Avatar 1.svg").default,
+    avatar2:require("../Assets/img/Avatar 6.svg").default,
+    avatar3:require("../Assets/img/Item.svg").default,
+    attach:require("../Assets/img/Attachment.svg").default,
+    icons:require("../Assets/img/Icons.svg").default,
+    view:require("../Assets/img/View.svg").default,
+    iconR:require("../Assets/img/⭐️ Icons R.svg").default,
+    labels:require("../Assets/img/Labels.svg").default,
+    icon:require("../Assets/img/⭐️ Icons.svg").default,
+    plus:require("../Assets/img/plus.svg").default,
+    icon1:require("../Assets/img/Icon1.svg").default,
+    avatar4:require("../Assets/img/Avatar 4.svg").default
+}

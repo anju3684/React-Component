@@ -1,0 +1,19 @@
+@import "./scss/font.scss";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Sk-Modernist' !important;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  
+  
+}
+:where(.css-dev-only-do-not-override-17a39f8)[class^="ant-layout"]{
+  font-family: 'Sk-Modernist' !important;
+}
+
+

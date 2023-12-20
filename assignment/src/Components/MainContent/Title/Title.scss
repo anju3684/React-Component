@@ -1,0 +1,19 @@
+@import "../../../scss/mixin.scss";
+.mainTitle{
+    display: flex;
+    justify-content: space-between;
+    height: 34px;
+    width: auto;
+    // border: 1px solid green;
+    @include breakpoint-down(lg){
+        padding: 10px 24px;
+    }
+    @include breakpoint-down(sm){
+        padding: 10px 24px;
+    }
+    .title{
+        font-weight: 700;
+        font-size: 24px;
+        margin: 0;
+    }
+}

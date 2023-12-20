@@ -1,0 +1,13 @@
+
+.contentMain{
+    background-color: #FFFF;
+    margin:32px 24px 24px;
+    gap:16px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 24px;
+    flex-wrap: wrap;
+}
+.test1 > div {
+    padding: 24px !important;
+}

@@ -1,0 +1,183 @@
+@import "../../../scss/mixin.scss";
+
+.model {
+  margin-top: 30px;
+  background-color: white;
+  max-width: 480px;
+  width: 100%;
+  min-height: 711px;
+  height: 100%;
+  border-radius: 15px;
+  @include breakpoint-down(sm){
+    width: inherit;
+    height: inherit;
+}
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 21px;
+    gap: 3px;
+
+    .gettingStarted {
+      font-weight: 700;
+      font-size: 24px;
+      color: #091B3D;
+      line-height: 34px;
+      margin: 0;
+
+    }
+
+
+  }
+
+  .img {
+    background-image: url("../../../Assets/img/Password-strength.svg");
+    height: 4px;
+    width: 100%;
+  }
+
+  .secHeading {
+    opacity: 0.6;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 14px;
+    font-size: 24;
+    color: #091B3D;
+    margin: 0;
+  }
+
+  .formInput {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 26px;
+    @include breakpoint-down(sm) {
+      padding: 20px;
+
+    }
+
+    .inputs {
+      max-width: 400px;
+      width: 100%;
+
+      @include breakpoint-down(sm) {
+        max-width: inherit;
+
+      }
+
+
+    }
+
+    .register {
+      margin-top: 20px
+    }
+
+    .terms {
+      display: flex;
+      gap: 10px;
+      padding-top: 10px;
+
+      .formPara {
+        font-weight: 700;
+        line-height: 24px;
+        font-size: 14px;
+        padding-top: 10px;
+      }
+    }
+
+    .ant-btn-primary {
+      max-width: 400px;
+      width: 100%;
+      height: 56px;
+      border-radius: 15px;
+
+      @include breakpoint-down(sm) {
+        max-width: inherit;
+
+      }
+
+    }
+
+    input[type="text"], input[type="password"] {
+      box-sizing: border-box;
+      width: 100%;
+      height: calc(3em + 2px);
+      margin: 0 0 1em;
+      padding: 6px;
+      border: 1px solid #bababa;
+      border-radius: 15px;
+      background: #fff;
+      font-size: 14px;
+      resize: none;
+      outline: none;
+      font-weight: 600;
+      padding: 16px;
+    }
+
+    input:focus {
+      border-color: #00bafa;
+    }
+
+    input:focus+label[placeholder]:before {
+      color: #0091da;
+    }
+
+    input:focus+label[placeholder]:before,
+    input:valid+label[placeholder]:before {
+      transition-duration: .2s;
+      transform: translate(0, -1.6em) scale(0.9, 0.9);
+      font-weight: bold;
+    }
+
+    input:invalid+label[placeholder][alt]:before {
+      content: attr(alt);
+    }
+
+    input+label[placeholder] {
+      display: block;
+      pointer-events: none;
+      line-height: 1.25em;
+      margin-top: calc(-3em - 2px);
+      margin-bottom: calc((3em - 1em) + 2px);
+    }
+
+    input+label[placeholder]:before {
+      content: attr(placeholder);
+      display: inline-block;
+      margin: 8px calc(0.5em + 2px);
+      padding: 1px 2px;
+      color: #7d7d7d;
+      white-space: nowrap;
+      transition: 0.3s ease-in-out;
+      background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+      background-size: 100% 5px;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+
+  .buttonGroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+
+    .ant-btn-default {
+      width: 192px;
+      height: 48px;
+      background-color: #F5B544;
+      opacity: 0.5;
+
+      span {
+        padding: 3px;
+        font-weight: 700;
+      }
+    }
+
+  }
+}

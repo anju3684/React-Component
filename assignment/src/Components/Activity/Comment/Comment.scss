@@ -1,0 +1,39 @@
+.commentMain {
+    display: flex;
+    padding: 32px;
+    justify-content: space-between;
+    background-color: rgba(245, 181, 68, 0.1);
+    margin:0 24px;
+    border-radius: 16px;
+    flex-wrap: wrap;
+    .task {
+        display: flex;
+        .innerData{
+            margin-left: 32px;
+        }
+
+        .paraa1 {
+            color: #091B3D;
+            font-family: Sk-Modernist;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+        }
+
+        .paraa2 {
+            color: var(--colors-black-100, #091B3D);
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Sk-Modernist;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+    .task1{
+        display: flex;
+        gap:24px;
+    }
+
+}

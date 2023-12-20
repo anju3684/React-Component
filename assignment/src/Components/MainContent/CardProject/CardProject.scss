@@ -1,0 +1,84 @@
+.mainCardPro{
+    // margin: 32px 0;
+    height: 288px;
+    min-width: 332px;
+    // border: 1px solid red;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    padding: 32px;
+    .sec1{
+        min-width: 270px;
+        height: 55px;
+        // border: 1px solid green;
+        display: flex;
+        justify-content: space-between;
+        .inner{
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            .p1{
+                margin:0 auto;
+                font-size: 16px;
+                font-weight: 700;
+            }
+            .p2{
+                font-weight: 500;
+                font-size: 12px;
+                margin:0;
+                padding: 8px 0;
+            }
+        }
+    }   
+    .sec2{
+        min-width: 158px;
+        // height: 28px;
+        // border: 1px solid green;
+        margin-top: 17px;
+        gap:19px;
+        display: flex;
+        .probutton{
+            background: rgba(9, 27, 61, 0.1);
+            justify-content: center;
+            padding: 5px;
+            border: none;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        
+        
+        }
+        .dayButton{
+            padding: 2px;
+            width: 92px;
+            border: none;
+            span{
+                margin-left:5px;
+            }
+        }
+    }
+    .sec3{
+        min-width: 270px;
+        // height: 24px;
+        // border: 1px solid green;
+        margin-top: 16px;
+        .ant-progress .ant-progress-bg {
+            background-color: #F3B544 !important;
+        }
+
+    }
+    .sec4{
+        min-width: 270px;
+        background-color: #F3B544;
+        opacity: 0.5;
+        margin-top: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        img{
+            border-radius: 10px;
+        }
+    }
+}

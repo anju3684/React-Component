@@ -1,0 +1,35 @@
+.container {
+    margin: 0 auto;
+    max-width: 1072px;
+    width: 100%;
+    .headProject{
+        display: flex;
+        justify-content: space-between;
+        button{
+            border-radius: 16px;
+            max-width: 194px;
+            width: 100%;
+            font-size: 14px;
+            color: #091B3D;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(245, 181, 68,0.1);
+            border-style: none;
+            span{
+                opacity: 0.4;
+            }
+            img{
+                width: 24px;
+                height: 24px;
+                margin-left: 16px;
+
+            }
+        }
+        .icons{
+            display: flex;
+            gap:24px;
+        }
+    }
+   
+}
